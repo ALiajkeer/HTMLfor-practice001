@@ -347,4 +347,12 @@ iframe{
     input[type="text"], input[type="email"], textarea{
         max-width: 100%;
     }
+
+    /* 店舗情報・地図を縦並びにする */
+    #location .wrapper{
+        flex-direction: column;
+    }
+    .location-info, .location-map{
+        width: 100%;
+    }
 }
