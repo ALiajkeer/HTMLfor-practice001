@@ -15,7 +15,8 @@ img{
     max-width: 100%;
 }
 .logo{
-    width: 100px;
+    width: 80px;
+    height: 80px;
     margin-top: 10px;
 }
 .main-nav{
@@ -36,8 +37,10 @@ img{
     color: #0bd;
 }
 .page-header{
+    height: 100px;
     display: flex;
     justify-content: space-between;
+    
 }
 .wrapper{
     max-width: 1100px;
@@ -53,7 +56,7 @@ img{
     margin: 10px 0 42px;
 }
 .page-title{
-    font-size: 5rem;
+    font-size: 4rem;
     font-family: "Philosopher", serif;
     text-transform: uppercase;
     font-weight: normal;
@@ -171,7 +174,8 @@ aside p{
 }
 .sub-menu{
     margin-bottom: 60px;
-    list-style: none;   /* リストの丸いマークを非表示にする */
+    /* リストの丸いマークを非表示にする */
+    list-style: none;
 }
 .sub-menu li{
     border-bottom: 1px #ddd solid;
@@ -179,20 +183,22 @@ aside p{
 .sub-menu a{
     color: #432;
     padding: 10px;
-    display: block; /* リンクのクリックできる範囲を広げる */
+    /* リンクのクリックできる範囲を広げる */
+    display: block;
 }
+/* カーソルを合わせた際の装飾 */
 .sub-menu a:hover{
-    color: #0bd;    /* カーソルを合わせた際の装飾 */
+    color: #0bd;
 }
 
 /* Menu */
 #menu{
-    background-image: url(../images/black_lotus.jpg);
-    min-height: 100vh;
+    background-image: url(../images/fk-PAUI0187_TP_V.jpg);
+    min-height: 50vh;
 }
 .menu-content{
     max-width: 560px;
-    margin-top: 10%;
+    margin-top: 2%;
 }
 .menu-content .page-title{
     text-align: center;
@@ -204,7 +210,8 @@ aside p{
 .grid{
     display: grid;
     gap: 26px;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));    /* 画面の幅に合わせて画像を縮小、折り返す */
+    /* 画面の幅に合わせて画像を縮小、折り返す */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     margin-top: 6%;
     margin-bottom: 50px;
 }
@@ -220,7 +227,7 @@ aside p{
 
 /* Contact */
 #contact{
-    background-image: url(../images/black_lotus.jpg);
+    background-image: url(../images/陽気なカフェの無料AI画像素材.jpg);
     min-height: 100vh;
 }
 
